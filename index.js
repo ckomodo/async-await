@@ -33,6 +33,9 @@ async function asyncExample() {
 
 asyncExample();
 
+console.log("HOME".toLowerCase());
+console.log("home".toUpperCase());
+
 // function fsAsyncExample() {
 //     new Promise(function (resolve, reject) {
 //         fs.writeFile("log.txt", "Hello, my name is Hannah", "utf8", function (err) {
